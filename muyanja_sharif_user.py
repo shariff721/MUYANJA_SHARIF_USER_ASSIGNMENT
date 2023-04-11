@@ -27,8 +27,8 @@ class User:
 
 
 sharif = User("Sharif", "Muyanja", "smuyanja11@gmail.com", 33)
-ayah = User("maryam", "Ayah", "mayah01@gmail.com", 13)
-dino = User("imran", "dino", "imrandinio100@gmail.com",8)
+ayah = User("Maryam", "Ayah", "mayah01@gmail.com", 13)
+dino = User("Imran", "Dino", "imrandinio100@gmail.com",8)
 
 
 sharif.enroll()
