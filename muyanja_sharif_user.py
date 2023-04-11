@@ -22,7 +22,7 @@ class User:
         if amount <= self.gold_card_points:
             self.gold_card_points = self.gold_card_points - amount
         else:
-            print("You Have no More Points To Spend")
+            print("You Have No More Points To Spend")
         return self.gold_card_points
 
 
@@ -33,7 +33,7 @@ dino = User("imran", "dino", "imrandinio100@gmail.com",8)
 
 sharif.enroll()
 
-sharif.spend_points(500)
+sharif.spend_points(50)
 
 ayah.enroll()
 
